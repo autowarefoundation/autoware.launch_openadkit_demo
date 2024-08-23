@@ -10,7 +10,7 @@
       # "current_lane"           : use only current lane. this module doesn't use adjacent lane to avoid object.
       # "same_direction_lane"    : this module uses same direction lane to avoid object if need.
       # "opposite_direction_lane": this module uses both same direction and opposite direction lane.
-      use_lane_type: "opposite_direction_lane"
+      use_lane_type: "current_lane"
       # drivable area setting
       use_intersection_areas: true
       use_hatched_road_markings: true
